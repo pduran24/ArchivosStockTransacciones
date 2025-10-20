@@ -1,9 +1,6 @@
 package service;
 
-import models.Devolucion;
-import models.Informe;
-import models.Producto;
-import models.Venta;
+import models.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -43,10 +40,10 @@ public class InformeService {
             informe.calculoStockFinal();
             informe.calculoIngresosTotales(precioUnidad);
             if (devuelto > 5) {
-                informe.requiereRevision("REQUIERE REVISION");
+                informe.setEstadoDevolucion(EstadoDevolucion.REQUIERE_REVISION);
             }
             else  {
-                informe.requiereRevision("OK");
+                informe.setEstadoDevolucion(EstadoDevolucion.OK);
             }
         }
 

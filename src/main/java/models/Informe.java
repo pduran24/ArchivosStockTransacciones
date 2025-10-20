@@ -10,7 +10,7 @@ public class Informe {
     private int ventasNetas;
     private int stockFinal;
     private double ingresosTotales;
-    private String estadoDevolucion;
+    private EstadoDevolucion estadoDevolucion;
 
     public void calculoVentasNetas(int vendido, int devuelto) {
          ventasNetas = vendido - devuelto;
@@ -24,8 +24,5 @@ public class Informe {
         ingresosTotales = ventasNetas * precioUnidad;
     }
 
-    public void requiereRevision (String revision) {
-        this.estadoDevolucion = revision;
-    }
 
 }

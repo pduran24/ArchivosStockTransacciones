@@ -27,6 +27,6 @@
     "ventasNetas" : -1,
     "stockFinal" : 101,
     "ingresosTotales" : -45.75,
-    "estadoDevolucion" : "REQUIERE REVISION"
+    "estadoDevolucion" : "REQUIERE_REVISION"
   }
 }
