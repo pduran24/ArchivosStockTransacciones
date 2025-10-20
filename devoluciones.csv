@@ -1,0 +1,4 @@
+timestamp,productId,quantityReturned,reason
+2024-05-20T16:05:15,P002,1,"El cliente esperaba más bajos, no le gustó la calidad de sonido"
+2024-05-20T16:20:00,P001,1,"La caja llegó dañada, el portátil tiene un rasguño menor"
+2024-05-20T17:00:40,P005,6,"Compra incorrecta, el cliente necesitaba un modelo con más capacidad"

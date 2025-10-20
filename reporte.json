@@ -1,0 +1,32 @@
+{
+  "StellarSound Headset" : {
+    "ventasNetas" : 4,
+    "stockFinal" : 96,
+    "ingresosTotales" : 518.0,
+    "estadoDevolucion" : "OK"
+  },
+  "GalaxyView Monitor" : {
+    "ventasNetas" : 1,
+    "stockFinal" : 99,
+    "ingresosTotales" : 349.0,
+    "estadoDevolucion" : "OK"
+  },
+  "QuantumBook Pro" : {
+    "ventasNetas" : 1,
+    "stockFinal" : 99,
+    "ingresosTotales" : 1499.99,
+    "estadoDevolucion" : "OK"
+  },
+  "SilentKey Mechanical Keyboard" : {
+    "ventasNetas" : 1,
+    "stockFinal" : 99,
+    "ingresosTotales" : 89.99,
+    "estadoDevolucion" : "OK"
+  },
+  "FusionCharge Power Bank" : {
+    "ventasNetas" : -1,
+    "stockFinal" : 101,
+    "ingresosTotales" : -45.75,
+    "estadoDevolucion" : "REQUIERE REVISION"
+  }
+}
